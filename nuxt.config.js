@@ -51,7 +51,6 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-    publicPath: "https://saifobeidat.github.io/yemeni-honey",
     postcss: {
       plugins: {
         tailwindcss: {},

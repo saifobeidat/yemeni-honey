@@ -1,7 +1,7 @@
 export const state = () => ({
   products: [
     {
-      src: "/products/3ood_abyad_malaki.jpg",
+      src: "products/3ood_abyad_malaki.jpg",
       slug: "3ood_abyad_malaki",
       brief: "",
       benefits: [
@@ -16,7 +16,7 @@ export const state = () => ({
       name: "العود الأبيض اليمني",
     },
     {
-      src: "/products/sedir_do3ni.jpg",
+      src: "products/sedir_do3ni.jpg",
       slug: "sedir_do3ni",
       brief:
         "العسل الدوعني العسل المعروف بطعمه اللذيذ ونكهته الرائعة والذي اعطى للعسل اليمني شهره اكثر وقابليه اكثر في السوق العالمي وميزه عن غيره من اصناف العسل اليمني",
@@ -32,7 +32,7 @@ export const state = () => ({
       name: "السدر الدوعني",
     },
     {
-      src: "/products/3saimy_malaki.jpg",
+      src: "products/3saimy_malaki.jpg",
       slug: "3saimy_malaki",
       brief:
         "يُعد عسل السدر العصيمي الملكي  من اجود انواع العسل اليمني المستخرج من الجبال  يتميز بمذاقه اللذيذ وقوامه الكثيف غني جداً بالمعادن وعناصر الطاقة",
@@ -48,7 +48,7 @@ export const state = () => ({
       name: "عسل السدر العصيمي الملكي",
     },
     {
-      src: "/products/sedir_jabali.jpg",
+      src: "products/sedir_jabali.jpg",
       slug: "sedir_jabali",
       brief:
         "يستخرج من مناطق جبليه في شمال ووسط  اليمن مثل العصيمات وشبوة وصعدة  حيث يتغذى النحل على رحيق  ازهار شجرة السدر ويُعد عسل السدر الجبلي اليمني  من اشهر انواع العسل اليمني لما له من قيمه غذائيه وعلاجيه",
@@ -64,7 +64,7 @@ export const state = () => ({
       name: "عسل السدر الجبلي",
     },
     {
-      src: "/products/sedir_rabe3i.jpg",
+      src: "products/sedir_rabe3i.jpg",
       slug: "sedir_rabe3i",
       brief:
         "يأتي هذا النوع من العسل في الموسم الغير الرئيسي لإزِهار شجرة السدر اي موسم يكن فيه ازهار اخرى غير السدر تمتزج وتختلط  به وتعطي مزيج من السدر والازهار",
@@ -77,7 +77,7 @@ export const state = () => ({
       name: "عسل السدر الربيعي",
     },
     {
-      src: "/products/samar_hadrami_malaki.jpg",
+      src: "products/samar_hadrami_malaki.jpg",
       slug: "samar_hadrami_malaki",
       brief:
         "عسل لونه  اسود او اسود  مائل للاحمرار غني بالحديد والمعادن ينتجه النحل من ازهار شجرة السمر  الصحراويه",
@@ -91,7 +91,7 @@ export const state = () => ({
       name: "عسل السمر الحضرمي الملكي",
     },
     {
-      src: "/products/azhar_jabali.jpg",
+      src: "products/azhar_jabali.jpg",
       slug: "azhar_jabali",
       brief:
         "عسل ربيعي يجمعه النحل من مختلف الازهار  من شجيرات صغيره عسلها خفيف يناسب الاطفال والعائله يضاف على موائد الطعام كالأجبان والقشطة واللحوم كما يستخدم ماسكات للبشره  للتجميل مغذي ومنعم ومقشر",
@@ -99,7 +99,7 @@ export const state = () => ({
       name: "عسل الازهار الجبلي",
     },
     {
-      src: "/products/sham3_3asal.jpg",
+      src: "products/sham3_3asal.jpg",
       slug: "sham3_3asal",
       brief: "",
       benefits: [
@@ -109,7 +109,7 @@ export const state = () => ({
       name: "شمع العسل (الشهد)",
     },
     {
-      src: "/products/sedir_gerfeh.jpg",
+      src: "products/sedir_gerfeh.jpg",
       slug: "sedir_gerfeh",
       brief: "",
       benefits: [
@@ -121,7 +121,7 @@ export const state = () => ({
       name: "عسل السدر بالقرفه",
     },
     {
-      src: "/products/with_zangabel.jpg",
+      src: "products/with_zangabel.jpg",
       slug: "with_zangabel",
       brief:
         "يمتاز كل من الزنجبيل والعسل بالخصائص المضادة للأكسدة والتي تزيد من فعالية وكفاءة عمل الجهاز المناعي في محاربة الأمراض، كما أن هذا المشروب يُساعد في التقليل من فترة المرض في حال الإصابة به",
@@ -134,7 +134,7 @@ export const state = () => ({
       name: "العسل بالزنجبيل",
     },
     {
-      src: "/products/b_ghedaa_malikat_w_a3haab.jpg",
+      src: "products/b_ghedaa_malikat_w_a3haab.jpg",
       slug: "b_ghedaa_malikat_w_a3haab",
       brief:
         "يخلط العسل نوع سدر بغذاء ملكات النحل والاعشاب الطبيعية ليعطي العديد من الفوائد",
@@ -150,7 +150,7 @@ export const state = () => ({
       name: "العسل بغذاء الملكات والاعشاب",
     },
     {
-      src: "/products/saal_7araq.jpg",
+      src: "products/saal_7araq.jpg",
       slug: "saal_7araq",
       brief: "",
       benefits: [
@@ -164,7 +164,7 @@ export const state = () => ({
       name: "عسل الصال الحراق",
     },
     {
-      src: "/products/with_3akbar.jpg",
+      src: "products/with_3akbar.jpg",
       slug: "with_3akbar",
       brief: "عسل جبلي يضاف عليه عكبر النحل يناسب الأطفال والكبار",
       benefits: [
