@@ -1,11 +1,9 @@
 <template>
   <div>
-    <Header />
-
     <div class="flex">
       <section class="text-center w-1/3 flex-shrink-0">
         <!-- Logo -->
-        <img class="w-auto md:w-56 lg:w-80 mx-auto" src="/logo.jpg" />
+        <img class="w-auto md:w-56 lg:w-80 mx-auto" src="/logo.png" />
 
         <!-- Slogan -->
         <div
@@ -38,7 +36,24 @@
 
     <div id="products" class="bg-orange-100 section-padding">
       <SectionTitle> المنتجات </SectionTitle>
-      <Products />
+      <div class="flex flex-wrap">
+        <nuxt-link
+          v-for="(item, $index) in products"
+          :key="$index"
+          :to="`/product/${item.slug}`"
+          class="bg-[#f4eae1] my-4 sm:mx-3 sm:w-[calc(50%-24px)] md:mx-3 md:w-[calc(33.333%-24px)] xl:mx-4 xl:w-[calc(25%-32px)]"
+        >
+          <div class="h-[calc(100%-60px)]">
+            <img
+              :src="item.src"
+              class="block object-cover object-center w-full h-full"
+            />
+          </div>
+          <div class="font-extrabold text-lg p-4 text-[#6b331a]">
+            {{ item.name }}
+          </div>
+        </nuxt-link>
+      </div>
     </div>
     <div id="contactus" class="section-padding">
       <SectionTitle> تواصل معنا </SectionTitle>
@@ -81,8 +96,12 @@
 </template>
 
 <script>
+import { mapState } from "vuex";
 export default {
   name: "IndexPage",
+  computed: {
+    ...mapState("products", ["products"]),
+  },
 };
 </script>
 
