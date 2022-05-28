@@ -1,7 +1,11 @@
 <template>
-  <nav class="absolute w-full z-10 top-0 p-5 font-medium text-lg">
-    <a href="#products" class="mx-2 hover:text-blue-500"> المنتجات</a>
-    <a href="#contactus" class="mx-2 hover:text-blue-500"> تواصل معنا</a>
+  <nav
+    class="relative w-full z-10 top-0 py-5 px-7 font-medium text-lg bg-white shadow"
+  >
+    <a href="#products" class="inline-block hover:text-blue-500 pl-2 lg:pl-6">
+      المنتجات</a
+    >
+    <a href="#contactus" class="inline-block hover:text-blue-500"> تواصل </a>
   </nav>
 </template>
 
