@@ -1,13 +1,16 @@
 <template>
   <div>
-    <div class="flex">
+    <div class="flex min-h-[250px]">
       <section class="text-center w-1/3 flex-shrink-0">
         <!-- Logo -->
-        <img class="w-auto md:w-56 lg:w-80 mx-auto" src="/logo.png" />
+        <img
+          class="hidden sm:inline-block md:w-56 lg:w-60 mx-auto mt-3"
+          src="/logo.png"
+        />
 
         <!-- Slogan -->
         <div
-          class="text-center font-extrabold text-3xl md:text-4xl lg:text-7xl"
+          class="text-center font-extrabold text-2xl sm:text-3xl md:text-4xl lg:text-7xl mt-8 sm:mt-0"
         >
           <h1 class="text-[#b83806]">عـســـل</h1>
           <h1 class="text-[#221e1d]">يـــمــنــي</h1>
@@ -20,7 +23,7 @@
         <!-- Big Shape  -->
         <img
           src="/shape.jpg"
-          class="absolute md:relative -top-8 md:-top-16 -left-16 md:-left-52 rounded-[60%] select-none"
+          class="absolute md:relative -top-8 md:-top-36 -left-16 md:-left-52 rounded-[60%] select-none"
         />
 
         <!-- Flower -->
@@ -29,7 +32,7 @@
         <!-- Honey -->
         <img
           src="/honey.png"
-          class="absolute moving-animation top-1/4 right-0 w-44 md:w-72 lg:w-[450px]"
+          class="absolute moving-animation top-[20%] right-0 w-44 md:w-72 lg:w-[450px]"
         />
       </section>
     </div>
@@ -71,21 +74,28 @@
           <div>
             <div class="mb-2">
               <div class="font-medium">الجمهورية اليمنية</div>
-              <div class="flex">
-                <div>صنعاء شارع المطار:</div>
-                <div class="mr-2">00967776002009</div>
+              <div class="flex flex-wrap">
+                <div class="w-full sm:w-auto">صنعاء شارع المطار:</div>
+                <div class="sm:mr-2">00967776002009</div>
               </div>
             </div>
 
             <div>
               <div class="font-medium">المملكة الاردنية الهاشمية</div>
-              <div class="flex">
-                <div>مكه مول الطابق الاول:</div>
-                <div class="mr-2">0792507555</div>
+              <div class="flex flex-wrap mb-2">
+                <div class="w-full sm:w-auto">مكه مول الطابق الاول:</div>
+                <div class="sm:mr-2">0792507555</div>
               </div>
-              <div class="flex">
-                <div>افينيو مول:</div>
-                <div class="mr-2">0788363670</div>
+              <div class="flex flex-wrap mb-2">
+                <div class="w-full sm:w-auto">افينيو مول:</div>
+                <div class="sm:mr-2">0788363670</div>
+              </div>
+
+              <div>
+                <div class="font-medium">الايميل</div>
+                <div class="flex flex-wrap mb-2">
+                  <div class="w-full sm:w-auto">yemenhoneyk@gmail.com</div>
+                </div>
               </div>
             </div>
           </div>
@@ -107,7 +117,7 @@ export default {
 
 <style scoped>
 .section-padding {
-  @apply px-10 py-8 lg:px-20 lg:py-16;
+  @apply px-8 py-8 lg:px-20 lg:py-16;
 }
 .moving-animation {
   animation: bounce 4s linear infinite;
