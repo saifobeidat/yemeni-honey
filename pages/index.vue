@@ -90,6 +90,12 @@
                 <div class="w-full sm:w-auto">افينيو مول:</div>
                 <div class="sm:mr-2">0788363670</div>
               </div>
+              <div class="flex flex-wrap mb-2">
+                <div class="w-full sm:w-auto">
+                  الجاردنز مقابل مطعم. السروات:
+                </div>
+                <div class="sm:mr-2">0798120099</div>
+              </div>
 
               <div>
                 <div class="font-medium">الايميل</div>
