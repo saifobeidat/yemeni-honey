@@ -91,6 +91,7 @@
                 <div class="sm:mr-2">0788363670</div>
               </div>
               <div class="flex flex-wrap mb-2">
+                <!-- ## -->
                 <div class="w-full sm:w-auto">
                   الجاردنز مقابل مطعم. السروات:
                 </div>
