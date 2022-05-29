@@ -5,7 +5,7 @@
         <!-- Logo -->
         <img
           class="hidden sm:inline-block md:w-56 lg:w-60 mx-auto mt-3"
-          src="logo.png"
+          src="/logo.png"
         />
 
         <!-- Slogan -->
@@ -22,16 +22,16 @@
       <section class="relative z-50 flex flex-grow justify-end">
         <!-- Big Shape  -->
         <img
-          src="shape.jpg"
+          src="/shape.jpg"
           class="absolute md:relative -top-8 md:-top-36 -left-16 md:-left-52 rounded-[60%] select-none"
         />
 
         <!-- Flower -->
-        <img src="flower.png" class="absolute top-0 left-0 w-20 md:w-auto" />
+        <img src="/flower.png" class="absolute top-0 left-0 w-20 md:w-auto" />
 
         <!-- Honey -->
         <img
-          src="honey.png"
+          src="/honey.png"
           class="absolute moving-animation top-[20%] right-0 w-44 md:w-72 lg:w-[450px]"
         />
       </section>
