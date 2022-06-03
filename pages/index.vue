@@ -10,11 +10,11 @@
 
         <!-- Slogan -->
         <div
-          class="text-center font-extrabold text-2xl sm:text-3xl md:text-4xl lg:text-7xl mt-8 sm:mt-0"
+          class="text-center font-extrabold text-2xl sm:text-3xl md:text-4xl lg:text-6xl mt-8 sm:mt-0"
         >
-          <h1 class="text-[#b83806]">عـســـل</h1>
-          <h1 class="text-[#221e1d]">يـــمــنــي</h1>
-          <h1 class="text-[#d87c19]">طبيعي</h1>
+          <h1 class="text-[#b83806]">خيرات الجنتين</h1>
+          <h1 class="text-[#221e1d]">للعسل</h1>
+          <h1 class="text-[#d87c19]">اليمني</h1>
         </div>
       </section>
 
