@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/product/sedir_rabe3i", {data:[{}],fetch:{},mutations:[]});

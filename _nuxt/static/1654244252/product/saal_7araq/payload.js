@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/product/saal_7araq", {data:[{}],fetch:{},mutations:[]});

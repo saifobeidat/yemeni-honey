@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/product/b_ghedaa_malikat_w_a3haab", {data:[{}],fetch:{},mutations:[]});

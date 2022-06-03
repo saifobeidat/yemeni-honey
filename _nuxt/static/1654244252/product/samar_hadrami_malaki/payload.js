@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/product/samar_hadrami_malaki", {data:[{}],fetch:{},mutations:[]});
