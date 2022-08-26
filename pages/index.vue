@@ -95,7 +95,7 @@
                 <div class="w-full sm:w-auto">
                   الجاردنز مقابل مطعم. السروات:
                 </div>
-                <div class="sm:mr-2">0798120099</div>
+                <div class="sm:mr-2">0786005007</div>
               </div>
 
               <div>
